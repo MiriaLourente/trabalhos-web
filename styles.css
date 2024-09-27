@@ -1,0 +1,44 @@
+body{
+    background-image:url(bolinhas.jpg ) ;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7cf43; /* Cor de fundo do layout */
+}
+
+/* Estilo do cartão */
+.card {
+    width: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 15px 15px 4px black;
+    background-color: white;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+/* Conteúdo do cartão */
+.card-content {
+    padding: 20px;
+}
+
+/* Rótulo de "Learning" */
+.label {
+    display: inline-block;
+    background-color: #ffc107;
+    color: black;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+
+
